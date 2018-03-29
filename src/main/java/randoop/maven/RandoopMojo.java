@@ -71,7 +71,7 @@ public class RandoopMojo extends AbstractMojo {
     args.add(classPath);
     args.add("randoop.main.Main");
     args.add("gentests");
-    args.add("--timelimit=" + timeoutInSeconds);
+//    args.add("--timelimit=" + timeoutInSeconds); new Randoop does not support this anymore
     args.add("--debug-checks=true");
     args.add("--junit-package-name=" + packageName);
     args.add("--junit-output-dir=" + targetDirectory);
