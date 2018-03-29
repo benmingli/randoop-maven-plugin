@@ -35,7 +35,7 @@ public class RandoopMojo extends AbstractMojo {
       defaultValue = "${project.build.directory}/generated-test-sources/java")
   private String targetDirectory;
 
-  @Parameter(required = true, defaultValue = "30")
+  @Parameter(required = true, defaultValue = "300")
   private int timeoutInSeconds;
 
   @Component
